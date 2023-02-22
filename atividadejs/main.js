@@ -10,6 +10,8 @@ Para cada demanda no array calcule quanto cada cliente deverá pagar e mostre a 
 que deverá começar vazio. Mostre o total obtido de todos os clientes no console. No formato: "O total de lucro é de R$ 5000",
 por exemplo.*/
 
+// -----------------------------------------------------------//
+
 
 let nomeProduto = "Batata";
 let valorProduto = 1000;
@@ -17,13 +19,10 @@ const descontoProduto = 0.05;
 descontoValido = Boolean;
 let valorFinal = 0;
 
-
     if (valorProduto > 900) {
     descontoValido = true;
-    valorFinal = valorProduto - (valorProduto*(descontoProduto*descontoValido));
+    valorFinal = valorProduto - (valorProduto * (descontoProduto * descontoValido));
     }
-
-
     if (valorProduto < 1000) {
     descontoValido = false;
     valorFinal = valorProduto;
@@ -40,6 +39,6 @@ let valoresPagos = [0];
     console.log ("O cliente " + (i + 1) + " deverá pagar:R$" + valorPago);
     }
 
-    let lucroTotal = valoresPagos.reduce((a,b) => a+b,0);
+    let lucroTotal = valoresPagos.reduce((a,b) => a + b,0);
     {console.log("O total do lucro é de R$" + lucroTotal);
     }
