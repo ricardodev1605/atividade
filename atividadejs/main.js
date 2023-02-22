@@ -28,7 +28,7 @@ let valorFinal = 0;
     valorFinal = valorProduto;
     }
 
-    console.log("Preço final:R$"+ valorFinal)
+    console.log("O valor final é:R$"+ valorFinal)
 
 let demandas = [10, 2, 1, 30, 5];
 let valoresPagos = [0];
