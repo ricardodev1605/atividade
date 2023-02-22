@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+    /* background-color: black; */
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    padding: 20px;
+    background-color: ghostwhite;
+}
+.logo{
+    width:50%;
+}
+.menu{
+    color: black;
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+main{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+h2 {
+    background-color: ghostwhite;
+    text-align:left;
+    color:black;
+}
+.calçados{
+    display: flex;
+}
+
+.calçado {
+    text-align: center;
+    border: 3px solid white;
+    background-color: white;
+    color: whitesmoke;
+    padding: 3px 5px;
+    
+}
+
+.calçado p{
+    color: black;
+}
+.ofertas{
+    display: flex;
+    
+}
+.oferta{
+    text-align: center;
+    border: 3px solid white;
+    background-color: white;
+    color: whitesmoke;
+    padding: 3px 5px;
+}
+.oferta p{
+    color: black
+    
+}
+fieldset{
+    background-color:black;
+
+}
+footer{
+    color: black;
+    background-color: grey;
+    text-align: center;
+}
+
+footer a{
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.botao{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+
